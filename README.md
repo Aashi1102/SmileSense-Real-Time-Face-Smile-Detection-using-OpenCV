@@ -24,27 +24,51 @@ OpenCV
 Haar Cascade Classifiers
 
 **📁 Project Structure**
+
 Face-Smile-Detection/
 │
-├── haarcascades/
-│   ├── haarcascade_frontalface_default.xml
-│   ├── haarcascade_eye.xml
-│   └── haarcascade_smile.xml
+
+├── haarcascade_frontalface_default.xml
+
+├── haarcascade_eye.xml
+
+├── haarcascade_smile.xml
+
 │
+
 ├── face_smile_detection.py
+
 ├── requirements.txt
+
+├── demo.png
+
 └── README.md
+
 
 **▶️ How to Run**
 
-Clone the repository:
+    Clone the repository:
+    
+    https://github.com/Aashi1102/SmileSense-Real-Time-Face-Smile-Detection-using-OpenCV/edit/main/README.md
+    
+    Install dependencies:
+    
+    pip install -r requirements.txt
+    
 
-https://github.com/Aashi1102/SmileSense-Real-Time-Face-Smile-Detection-using-OpenCV/edit/main/README.md
+**🧠 How It Works**
 
-Install dependencies:
-
-pip install -r requirements.txt
-
+    Captures live video using your webcam
+    
+    Detects faces using Haar Cascade classifier
+    
+    Inside detected face:
+    
+    Detects eyes
+    
+    Detects smiles
+    
+    Displays detection results in real time
 
 **Run the program:**
 
@@ -52,21 +76,21 @@ python face_smile_detection.py
 
 **📸 Output**
 
-Green box → Face detected
-
-Text "Eyes Detected" → Eyes found
-
-Text "Smiling" → Smile detected
+    Green box → Face detected
+    
+    Text "Eyes Detected" → Eyes found
+    
+    Text "Smiling" → Smile detected
 
 **🚀 Future Improvements**
 
-Add face mask detection
-
-Improve accuracy using DNN
-
-Add face recognition
-
-Convert to real-time app
+    Add face mask detection
+    
+    Improve accuracy using DNN
+    
+    Add face recognition
+    
+    Convert to real-time app
 
 **👩‍💻 Author**
 
