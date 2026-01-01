@@ -1,9 +1,9 @@
-😊 Face, Eye & Smile Detection using OpenCV
+**😊 Face, Eye & Smile Detection using OpenCV**
 
 This project demonstrates real-time face, eye, and smile detection using OpenCV and Haar Cascade classifiers.
 It uses your system webcam to detect facial features live.
 
-🔍 Features
+**🔍 Features**
 
 Real-time face detection
 
@@ -15,7 +15,7 @@ Works with laptop/web camera
 
 Beginner-friendly OpenCV project
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 Python
 
@@ -23,7 +23,7 @@ OpenCV
 
 Haar Cascade Classifiers
 
-📁 Project Structure
+**📁 Project Structure**
 Face-Smile-Detection/
 │
 ├── haarcascades/
@@ -35,7 +35,7 @@ Face-Smile-Detection/
 ├── requirements.txt
 └── README.md
 
-▶️ How to Run
+**▶️ How to Run**
 
 Clone the repository:
 
@@ -46,11 +46,11 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-Run the program:
+**Run the program:**
 
 python face_smile_detection.py
 
-📸 Output
+**📸 Output**
 
 Green box → Face detected
 
@@ -58,7 +58,7 @@ Text "Eyes Detected" → Eyes found
 
 Text "Smiling" → Smile detected
 
-🚀 Future Improvements
+**🚀 Future Improvements**
 
 Add face mask detection
 
@@ -68,7 +68,7 @@ Add face recognition
 
 Convert to real-time app
 
-👩‍💻 Author
+**👩‍💻 Author**
 
 Aashi Tomar
 Student | Learning Computer Vision & AI
