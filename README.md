@@ -25,14 +25,14 @@ Haar Cascade Classifiers
 
 **📁 Project Structure**
 
-Face-Smile-Detection/│
+Face-Smile-Detection/
 
 ├── haarcascade_frontalface_default.xml
 
 ├── haarcascade_eye.xml
 
 ├── haarcascade_smile.xml
-│
+
 ├── face_smile_detection.py
 
 ├── requirements.txt
